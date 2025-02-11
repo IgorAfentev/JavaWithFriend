@@ -4,17 +4,14 @@
 
 //Моё решение
 package igor.Overloading;
-import java.util.Scanner;
 
 public class OverloadingEasyIgor {
 
     public static void main(String[] args) {
-        try(Scanner scanner = new Scanner(System.in)) {
-            String someString = "Привет! Я строка!";
-            int someInt = 23;
-            System.out.println(print(someString));
-            System.out.println(print(someInt));
-        }
+        String someString = "Привет! Я строка!";
+        int someInt = 23;
+        System.out.println(print(someString));
+        System.out.println(print(someInt));
     }
 
     static String print(String phrase) {
@@ -30,13 +27,11 @@ public class OverloadingEasyIgor {
 class OverloadingEasyIgorChat {
 
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
-            String someString = "Привет! Я строка!";
-            int someInt = 23;
+        String someString = "Привет! Я строка!";
+        int someInt = 23;
 
-            print(someString);
-            print(someInt);
-        }
+        print(someString);
+        print(someInt);
     }
 
     static void print(String phrase) {
