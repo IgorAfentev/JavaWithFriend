@@ -10,9 +10,9 @@ public class TestOperatorsAlexey {
         System.out.println("Введите предложение:");
         String str = scanner.nextLine();
 
-        int lenght = str.length();
+        int length = str.length();
 
-        System.out.println("Длина вашего предложения: " + lenght);
+        System.out.println("Длина вашего предложения: " + length);
 
         scanner.close();
 
